@@ -11,35 +11,49 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Theoretical Chemistry, TU Dresden, Apr 2021 - Present
+* M.S. in Computational Materials Science, Beihang University, Sep 2018 - Jan 2021
+* B.S. in Materials Physics, Beihang University, Sep 2014 - Jul 2018
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Doctoral Researcher**  
+  * TU Dresden, Dresden, Germany  
+  * Jun. 2021 – Present  
+  * Supervisor: Prof. Thomas Heine  
   
-Skills
+* **Software Developer**  
+  * Software for Chemistry & Materials B.V. (SCM), Amsterdam, the Netherlands  
+  * Apr. 2024 – Present 
+
+* **Visiting PhD Student**  
+  * French National Centre for Scientific Research (CNRS), Toulouse, France  
+  * Oct. 2020 – Dec. 2022  
+
+* **Research Assistant**  
+  * Beihang University, Beijing, China  
+  * Sep. 2017 – Jan. 2021  
+  * Supervisor: Assoc. Prof. Naihua Miao  
+
+* **Research Intern**  
+  * Chinese Academy of Sciences, Beijing, China  
+  * Jul. 2015 – Sep. 2016  
+  * Advisor: Assoc. Prof. Hongyan Xu  
+
+
+Technical Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages:**  
+  * Working knowledge of Fortran and C++/C  
+  * Regular user of Python  
+  * Some experience with Julia and Java
+
+* **Scientific Calculation Software:**  
+  * AMS, DFTB+, LAMMPS, VASP, Quantum Espresso
+
+* **Operating Systems:**  
+  * Linux, MacOS, Windows
 
 Publications
 ======
@@ -59,6 +73,12 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Extracurricular Activities
 ======
-* Currently signed in to 43 different slack teams
+* Minister of Public Relations, Students' Union
+  * Organized events and secured sponsorships.
+
+* Orchestra Member (2015-2021) 
+  * 8 years with Pipa and 2 years with Ruan (traditional Chinese instruments).
+
+* Rock Climbing & 10 years of Chinese Folk Dance
