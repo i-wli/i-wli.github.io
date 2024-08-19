@@ -18,28 +18,23 @@ Education
 Experience
 ======
 
-* **Doctoral Researcher**  
-  * TU Dresden, Dresden, Germany  
-  * Jun. 2021 – Present  
-  * Supervisor: Prof. Thomas Heine  
+* **Doctoral Researcher** (Jun. 2021 – Present)
+  * TU Dresden, _Dresden, Germany_
+  * Supervisor: Prof. Thomas Heine
   
-* **Software Developer**  
-  * Software for Chemistry & Materials B.V. (SCM), Amsterdam, the Netherlands  
-  * Apr. 2024 – Present 
+* **Software Developer** (Apr. 2024 – Present)
+  * Software for Chemistry & Materials B.V. (SCM), _Amsterdam, the Netherlands_
 
-* **Visiting PhD Student**  
-  * French National Centre for Scientific Research (CNRS), Toulouse, France  
-  * Oct. 2020 – Dec. 2022  
+* **Visiting PhD Student** (Oct. 2020 – Dec. 2022)
+  * National Laboratory for Intense Magnetic Fields (LNCMI), French National Centre for Scientific Research (CNRS), _Toulouse, France_
 
-* **Research Assistant**  
-  * Beihang University, Beijing, China  
-  * Sep. 2017 – Jan. 2021  
-  * Supervisor: Assoc. Prof. Naihua Miao  
+* **Research Assistant** (Sep. 2017 – Jan. 2021)
+  * Beihang University (BUAA), _Beijing, China_
+  * Supervisor: Assoc. Prof. Naihua Miao
 
-* **Research Intern**  
-  * Chinese Academy of Sciences, Beijing, China  
-  * Jul. 2015 – Sep. 2016  
-  * Advisor: Assoc. Prof. Hongyan Xu  
+* **Research Intern** (Jul. 2015 – Sep. 2016)
+  * Institute of Electrical Engineering (IEE)，Chinese Academy of Sciences (CAS), _Beijing, China_
+  * Advisor: Assoc. Prof. Hongyan Xu
 
 
 Technical Skills
@@ -54,6 +49,23 @@ Technical Skills
 
 * **Operating Systems:**  
   * Linux, MacOS, Windows
+ 
+
+Scholarships & Awards
+======
+* European Marie Sklodowska-Curie Doctoral Network (2021-2024)
+* Start-up Funding, _The Collaborative Research Centre (CRC) 1415_ (2021)
+* Outstanding Graduate in Beijing (2021)
+  * top 4 out of 300 graduates
+* Outstanding Master’s Dissertation Award, _Beihang University_ (2020)
+  * top 5% in dissertation quality
+* Recipient of 9 Scholarships (2014-2020)
+  * top 10% in academic performance and research achievements
+* The Second Prize of Fengru Cup Competition, _Beihang University_ (2016)
+  * for extracurricular science and technology works
+* Merit Student Award, _Beihang University_ (2015)
+  * top 5 out of 151 undergraduate students
+
 
 Publications
 ======
