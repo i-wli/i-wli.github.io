@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Theoretical Chemistry, TU Dresden, Apr 2021 - Present
-* M.S. in Computational Materials Science, Beihang University, Sep 2018 - Jan 2021
-* B.S. in Materials Physics, Beihang University, Sep 2014 - Jul 2018
+* Candidate for Ph.D. in Theoretical Chemistry, _TU Dresden_, Apr 2021 - Present
+* M.Sc. in Computational Materials Science, _Beihang University_, Sep 2018 - Jan 2021
+* B.Sc. in Materials Physics, _Beihang University_, Sep 2014 - Jul 2018
 
 Experience
 ======
