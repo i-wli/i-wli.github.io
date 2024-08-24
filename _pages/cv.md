@@ -60,7 +60,7 @@ Scholarships & Awards
 * Outstanding Master’s Dissertation Award, _Beihang University_ (2020)
   * top 5% in dissertation quality
 * Recipient of 9 Scholarships (2014-2020)
-  * top 10% in academic performance and research achievements
+  * top 10% annually in academic performance and research achievements
 * The Second Prize of Fengru Cup Competition, _Beihang University_ (2016)
   * for extracurricular science and technology works
 * Merit Student Award, _Beihang University_ (2015)
