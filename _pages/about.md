@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a computational scientist and software developer specializing in large-scale condensed matter physics simulations. With a background spanning theoretical chemistry, materials science, and physics, I bring a unique blend of scientific knowledge and programming expertise to the world of scientific software development.
+I'm a computational scientist and software developer specializing in condensed matter physics simulations. With a background spanning theoretical chemistry, materials science, and physics, I am passionate about transforming complex scientific concepts into efficient, scalable code.
 
 
 Research Interests
 ======
-With a doctoral research experience in Theoretical Chemistry from TU Dresden and hands-on experience at Software for Chemistry & Materials B.V. (SCM), I specialize in translating intricate scientific concepts into efficient, scalable code. My work focuses on:
+Building on my doctoral research in at TU Dresden and hands-on experience at Software for Chemistry & Materials B.V. (SCM), I focuses on:
 * Optical propertise of twisted transition metal dichalcogenides (TMDCs) heterostructures
-* Modeling and simulation of large-scale systems
-* Development and implementation of semi-empirical quantum chemistry method
+* Modeling and simulating large-scale systems
+* Developing and implementing semi-empirical quantum chemistry methods
 
 
 Developed Packages

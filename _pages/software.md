@@ -7,11 +7,11 @@ redirect_from:
   - /sw
 ---
 
-**AMS/DFTB**: Spin-Orbit Coupling in SCC-DFTN/GFN-xTB
+**AMS/DFTB**: Spin-Orbit Coupling in SCC-DFTB/GFN-xTB
   (Commercial code)
   * [Software for Chemistry & Materials B.V. (SCM)](https://www.scm.com)
   
-**Ddftb2pi**: A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor
+**Dftb2pi**: A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor
   (Open source soon)
   * [DFTB+](https://dftbplus.org)
 
