@@ -22,7 +22,7 @@ Experience
   * TU Dresden, _Dresden, Germany_
   * Supervisor: Prof. Thomas Heine
   
-* **Software Developer** (Apr. 2024 – Present)
+* **Software Developer** (Jun. 2024 – Present)
   * Software for Chemistry & Materials B.V. (SCM), _Amsterdam, the Netherlands_
 
 * **Visiting PhD Student** (Oct. 2020 – Dec. 2022)
