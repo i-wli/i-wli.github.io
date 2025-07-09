@@ -10,7 +10,7 @@ volume: 20
 issue: 11
 pages: 8273-8281
 publisher: 'American Chemical Society'
-slidesurl: 'http://i-wli.github.io/files/paper_nanoletter.pdf'
+# slidesurl: 'http://i-wli.github.io/files/paper_nanoletter.pdf'
 paperurl: 'https://pubs.acs.org/doi/full/10.1021/acs.nanolett.0c03395'
 citation: 'Chen Lai, Chengyong Shu, Wei Li, Liu Wang, Xiaowei Wang, Tianran Zhang, Xuesong Yin, Iqbal Ahmad, Mingtao Li, Xiaolu Tian, Pu Yang, Wei Tang, Naihua Miao, Guangyuan Wesley Zheng. (2020). &quot;Stabilizing a Lithium Metal Battery by an In Situ Li<sub>2</sub>S-modified Interfacial Layer via Amorphous-Sulfide Composite Solid Electrolyte.&quot; <i>Nano Letters</i>. 20(11), 8273-8281.'
 ---
