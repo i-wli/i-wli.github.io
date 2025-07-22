@@ -10,7 +10,7 @@ volume: 9
 issue: 2
 pages: 547-554
 publisher: 'Royal Society of Chemistry'
-slidesurl: 'http://i-wli.github.io/files/paper_jmcc.pdf'
+# slidesurl: 'http://i-wli.github.io/files/paper_jmcc.pdf'
 paperurl: 'https://pubs.rsc.org/en/content/articlehtml/2020/tc/d0tc04783j'
 citation: 'Wei Li, Naihua Miao, Jian Zhou, Zhimei Sun. (2021). &quot;Pressure-Mediated Structural Phase Transitions and Ultrawide Indirect–Direct Bandgaps in Novel Rare-Earth Oxyhalides.&quot; <i>Journal of Materials Chemistry C</i>. 9(2), 547-554.'
 ---

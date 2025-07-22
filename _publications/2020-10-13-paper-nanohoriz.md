@@ -10,7 +10,7 @@ volume: 5
 issue: 12
 pages: 1566-1573
 publisher: 'Royal Society of Chemistry'
-slidesurl: 'http://i-wli.github.io/files/paper_nanohoriz.pdf'
+# slidesurl: 'http://i-wli.github.io/files/paper_nanohoriz.pdf'
 paperurl: 'https://pubs.rsc.org/en/content/articlehtml/2020/nh/d0nh00395f'
 citation: 'Naihua Miao, Wei Li, Linggang Zhu, Bin Xu, Jian Zhou, Stephen R Elliott, Zhimei Sun. (2020). &quot;Tunable Phase Transitions and High Photovoltaic Performance of Two-Dimensional In<sub>2</sub>Ge<sub>2</sub>Te<sub>6</sub> Semiconductors.&quot; <i>Nanoscale Horizons</i>. 5(12), 1566-1573.'
 ---
