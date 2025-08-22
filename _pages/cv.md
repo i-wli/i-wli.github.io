@@ -27,6 +27,7 @@ Experience
 
 * **Visiting PhD Student** (Oct. 2020 – Dec. 2022)
   * National Laboratory for Intense Magnetic Fields (LNCMI), French National Centre for Scientific Research (CNRS), _Toulouse, France_
+  * Advisor: Prof. Paulina Plochocka
 
 * **Research Assistant** (Sep. 2017 – Jan. 2021)
   * Beihang University (BUAA), _Beijing, China_
