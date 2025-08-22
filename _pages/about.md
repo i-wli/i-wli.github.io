@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I'm a computational scientist and software developer specializing in condensed matter physics simulations. With a background spanning theoretical chemistry, materials science, and physics, I am passionate about transforming complex scientific concepts into efficient, scalable code.
+PhD candidate in theoretical chemistry at TU Dresden (with [Prof. Thomas Heine](http://theory.chm.tu-dresden.de/members.shtml?name=theine&set_language=en&lang=en)) and Marie Skłodowska-Curie ITN fellow ([2exciting](https://itn-2exciting.chm.tu-dresden.de)), I specialize in implementing and applying high‑performance software for chemistry and materials science. My experience spans academia and industry: I contributed to commercial quantum chemistry software at [Software for Chemistry & Materials (SCM)](https://www.scm.com/) and collaborated within [DFG CRC 1415](https://tu-dresden.de/mn/chemie/sfb1415) and [HZDR-CASUS](https://www.casus.science/). My interdisciplinary and international experience includes research in chemistry, materials science, and physics across Germany, the Netherlands, France ([CNRS‑LNCMI](https://lncmi.cnrs.fr/)), and China (BUAA, Chinese Academy of Sciences-IEE).
 
 
 Research Interests
 ======
-Building on my doctoral research in at TU Dresden and hands-on experience at Software for Chemistry & Materials B.V. (SCM), I focuses on:
-* Optical propertise of twisted transition metal dichalcogenides (TMDCs) heterostructures
-* Modeling and simulating large-scale systems
-* Developing and implementing semi-empirical quantum chemistry methods
+During my doctoral research, I focus on:
+* Structural and opto-electronic properties of twisted transition metal dichalcogenides (TMDCs) heterostructures
+* Multiscale modelling, from classical force fields to electronic-structure methods
+* Development and implementation of semi-empirical quantum-chemistry methods
 
 
 Developed Packages
 ======
-  [softwares](https://i-wli.github.io/software/)
+  [Softwares](https://i-wli.github.io/software/)
