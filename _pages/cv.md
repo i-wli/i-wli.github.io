@@ -25,7 +25,7 @@ Experience
 * **Software Developer** (Apr. 2024 – Aug. 2024)
   * Software for Chemistry & Materials B.V. (SCM), _Amsterdam, the Netherlands_
 
-* **Visiting PhD Student** (Oct. 2020 – Dec. 2022)
+* **Visiting PhD Student** (Oct. 2022 – Dec. 2022)
   * National Laboratory for Intense Magnetic Fields (LNCMI), French National Centre for Scientific Research (CNRS), _Toulouse, France_
   * Advisor: Prof. Paulina Plochocka
 
