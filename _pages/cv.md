@@ -54,6 +54,7 @@ Technical Skills
 
 Scholarships & Awards
 ======
+* Completion & Wrap-up Grant, _Graduate Academy of TU Dresden_ (2025)
 * European Marie Sklodowska-Curie Doctoral Network (2021-2024)
 * Start-up Funding, _The Collaborative Research Centre (CRC) 1415_ (2021)
 * Outstanding Graduate in Beijing (2021)
@@ -85,13 +86,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Extracurricular Activities
-======
-* Minister of Public Relations, Students' Union
-  * Organized events and secured sponsorships.
-
-* Orchestra Member (2015-2021) 
-  * 8 years with Pipa and 2 years with Ruan (traditional Chinese instruments).
-
-* Rock Climbing & 10 years of Chinese Folk Dance
