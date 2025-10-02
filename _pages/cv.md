@@ -42,14 +42,11 @@ Technical Skills
 ======
 * **Programming Languages:**  
   * Working knowledge of Fortran and C++/C  
-  * Regular user of Python  
+  * Daily user of Python  
   * Some experience with Julia and Java
 
 * **Scientific Calculation Software:**  
-  * AMS, DFTB+, LAMMPS, VASP, Quantum Espresso
-
-* **Operating Systems:**  
-  * Linux, MacOS, Windows
+  * AMS, DFTB+, LAMMPS, VASP, Quantum Espresso, FHI-aims
  
 
 Scholarships & Awards
