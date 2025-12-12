@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Candidate for Ph.D. in Theoretical Chemistry, _TU Dresden_, Jun. 2021 - Present
+* Ph.D. in Theoretical Chemistry, _TU Dresden_, Jun. 2021 - Dec. 2025
 * M.Sc. in Computational Materials Science, _Beihang University_, Sep. 2018 - Jan. 2021
 * B.Sc. in Materials Physics, _Beihang University_, Sep. 2014 - Jul. 2018
 
