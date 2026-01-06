@@ -36,18 +36,7 @@ Experience
 * **Research Intern** (Jul. 2015 – Sep. 2016)
   * Institute of Electrical Engineering (IEE)，Chinese Academy of Sciences (CAS), _Beijing, China_
   * Advisor: Assoc. Prof. Hongyan Xu
-
-
-Technical Skills
-======
-* **Programming Languages:**  
-  * Working knowledge of Fortran and C++/C  
-  * Daily user of Python  
-  * Some experience with Julia and Java
-
-* **Scientific Calculation Software:**  
-  * AMS, DFTB+, LAMMPS, VASP, Quantum Espresso, FHI-aims
- 
+  
 
 Scholarships & Awards
 ======
@@ -66,20 +55,30 @@ Scholarships & Awards
   * top 5 out of 151 undergraduate students
 
 
-Publications
+Conferences & Workshops
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+**Oral Presentations**
+- American Physical Society April Meeting (Mar 2024, Minneapolis, USA)
+- Flatlands beyond Graphene (Sep 2023, Prague, Czech)
+- Graphene Conference series (Jun 2023, Manchester, UK)
+- 2Exciting Spring school on Scientific Communication (Mar 2022, Milan, Italy)
+- Flatlands beyond Graphene (Sep 2022, Lanzarote, Spain)
+
+**Poster Presentations**
+- Psi-k Conference (Aug 2022, Lausanne, Switzerland)
+- SPP Mid-term Report Colloquium (Mar 2022, Dresden, Germany)
+- Chemistry of Two-Dimensional Materials (Chem2DMat) (Aug 2021, Virtual)
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+See [Presentations](/talks/) for the full list.
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+See [Teaching](/teaching/) for the full list.
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
