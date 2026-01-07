@@ -57,21 +57,8 @@ Scholarships & Awards
 
 Conferences & Workshops
 ======
-**Oral Presentations**
-- American Physical Society April Meeting (Mar 2024, Minneapolis, USA)
-- Flatlands beyond Graphene (Sep 2023, Prague, Czech)
-- Graphene Conference series (Jun 2023, Manchester, UK)
-- 2Exciting Spring school on Scientific Communication (Mar 2022, Milan, Italy)
-- Flatlands beyond Graphene (Sep 2022, Lanzarote, Spain)
-
-**Poster Presentations**
-- Psi-k Conference (Aug 2022, Lausanne, Switzerland)
-- SPP Mid-term Report Colloquium (Mar 2022, Dresden, Germany)
-- Chemistry of Two-Dimensional Materials (Chem2DMat) (Aug 2021, Virtual)
   
-Talks
-======
-See [Presentations](/talks/) for the full list.
+See [Presentations](/presentations/) for the full list.
   
 Teaching
 ======

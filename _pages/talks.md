@@ -1,34 +1,29 @@
 ---
 layout: archive
 title: "Presentations"
-permalink: /talks/
+permalink: /presentations/
 author_profile: true
+redirect_from:
+  - /talks/
+  - /talks
 ---
 
-## 2024
+## Conference oral presentations
 
-### Spin orbit coupling implementation in DFTB/GFN-xTB
-- Seminar, SCM, _Amsterdam, NL_, 2024 July
-- [Download Slides](http://i-wli.github.io/files/slides_ams.pdf)
+- ["Modulation of optical selection rules in twisted transition metal dichalcogenide heterobilayer."](https://meetings.aps.org/Meeting/MAR24/Session/N03.11), [American Physical Society March Meeting](https://www.aps.org/events/2024/march-meeting) (Minneapolis, USA, 2024) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_aps_24.03.pdf)
+- "Relaxation effects in twisted transition metal dichalcogenide heterostructures", [Flatlands beyond Graphene](https://flatlands2023.com/wp-content/uploads/2022/09/Flatlands-1st-announcement.pdf) (Prague, Czech, 2023) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_flatlands_2309.pdf)
+- ["Relaxation effects in twisted transition metal dichalcogenide heterostructures"](https://phantomsfoundation.com/GRAPHENECONF/2023/Abstracts/Grapheneconf2023_Li_Wei_203.pdf), [Graphene Conference series](https://www.royce.ac.uk/events/graphene-conference-2023/) (Manchester, UK, 2023) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_graphene_2306.pdf)
+- [2Exciting Spring school](https://itn-2exciting.chm.tu-dresden.de/events/POLIMI_Spring_School_2023/) (Milan, Italy, 2022)
+- [Flatlands beyond Graphene](https://sites.google.com/view/flatlandsbeyondgraphene2022) (Lanzarote, Spain, 2022)
 
-### Oral presentation: Modulation of optical selection rules in twisted transition metal dichalcogenide heterobilayer.
-- Conference, American Physical Society, _Minneapolis, USA_, 2024 March
-- [Download Slides](http://i-wli.github.io/files/slides_aps_24.03.pdf) / [Abstract](https://meetings.aps.org/Meeting/MAR24/Session/N03.11)
+## Conference poster presentations
 
-### Calculating excitons: GW/BSE and TD-DFT formalism
-- Seminar, ThC, _Goerlitz, DE_, 2024 February
-- [Download Slides](http://i-wli.github.io/files/slides_retreat_GW.pdf)
+- [Psi-k Conference](https://www.psik2022.net) (Lausanne, Switzerland, 2022)
+- [SPP Mid-term Report Colloquium](https://2dmp.tu-dresden.de/events/midterm/) (Dresden, Germany, 2022)
+- [Chemistry of Two-Dimensional Materials (Chem2DMat)](https://www.chem2dmatconf.org/2021/) (Virtual, 2021)
 
-## 2023
+## Invited seminars
 
-### Relaxation effects in twisted transition metal dichalcogenide heterostructures
-- Conference, Flatlands2023, _Prague, CK_, 2023 September
-- [Download Slides](http://i-wli.github.io/files/slides_flatlands_2309.pdf)
-
-### Relaxation effects in twisted transition metal dichalcogenide heterostructures
-- Conference, Graphene2023, _Manchester, UK_, 2023 June
-- [Download Slides](http://i-wli.github.io/files/slides_graphene_2306.pdf) / [Abstract](https://phantomsfoundation.com/GRAPHENECONF/2023/Abstracts/Grapheneconf2023_Li_Wei_203.pdf)
-
-### First-Principles Models for van der Waals Interactions
-- Seminar, ThC, _Goerlitz, DE_, 2023 April
-- [Download Slides](http://i-wli.github.io/files/slides_retreat_vdW.pdf)
+- "Spin orbit coupling implementation in DFTB/GFN-xTB", SCM (Amsterdam, NL, 2024) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_ams.pdf)
+- "Calculating excitons: GW/BSE and TD-DFT formalism", ThC (Goerlitz, DE, 2024) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_retreat_GW.pdf)
+- "First-Principles Models for van der Waals Interactions", ThC (Goerlitz, DE, 2023) - <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> [Slides](http://i-wli.github.io/files/slides_retreat_vdW.pdf)
