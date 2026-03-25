@@ -69,3 +69,9 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Extracurricular Activities
+======
+* Minister of Public Relations, Students' Union (organized events and secured sponsorships).
+* Orchestra member (2015-2021), 10 years on Pipa and 3 years on Ruan (traditional Chinese instruments).
+* Rock climbing; 10 years of Chinese folk dance.
