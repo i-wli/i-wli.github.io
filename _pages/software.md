@@ -10,7 +10,7 @@ redirect_from:
 **AMS/DFTB**: Spin-Orbit Coupling in SCC-DFTB/GFN-xTB
   (Commercial code)
   * [Software for Chemistry & Materials B.V. (SCM)](https://www.scm.com)
-  * Relevant publication: [W. Li, P. Philipsen, T. Brumme, T. Heine. *arXiv preprint* (2025)](https://arxiv.org/abs/2508.12841)
+  * Relevant publication: [W. Li, P. Philipsen, T. Brumme, T. Heine. *Advanced Quantum Technologies* 9(4), e01001 (2026)](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/qute.202501001)
 
 **Dftb2pi**: A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor
   (Open source soon)
