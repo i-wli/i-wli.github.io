@@ -18,7 +18,10 @@ Education
 Experience
 ======
 
-* **Doctoral Researcher** (Jun. 2021 – Present)
+* **Research Software Engineer** (Apr. 2026 – Present)
+  * University of Cambridge, _Cambridge, United Kingdom_
+
+* **Doctoral Researcher** (Jun. 2021 – Dec. 2025)
   * TU Dresden, _Dresden, Germany_
   * Supervisor: Prof. Thomas Heine
   
