@@ -19,7 +19,7 @@ Experience
 ======
 
 * **Research Software Engineer** (Apr. 2026 – Present)
-  * University of Cambridge, _Cambridge, United Kingdom_
+  * Research Computing Services, University of Cambridge, _Cambridge, United Kingdom_
 
 * **Doctoral Researcher** (Jun. 2021 – Dec. 2025)
   * TU Dresden, _Dresden, Germany_
