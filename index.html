@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wei Li</title>
+<meta name="description" content="Wei Li, Research Software Engineer at the University of Cambridge: HPC performance engineering, AI infrastructure, scientific ML.">
+<meta name="google-site-verification" content="2RUtmvph8fF47BxVSWa0PK173jwz7Hzn7HT1GR_fjHE">
+<link rel="icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="name" href="#top">Wei Li</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#focus">Focus</a>
+      <a href="#software">Software</a>
+      <a href="#experience">Experience</a>
+      <a href="#more">More</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+<section class="hero">
+  <h1>I trained as a computational physicist. Now I work on how scientific software performs: on CPUs, on GPUs, and in the hands of AI agents.</h1>
+  <img src="/images/hs.webp" width="288" height="288" alt="Portrait of Wei Li">
+</section>
+
+<section class="row" id="about">
+  <div class="label">about</div>
+  <div>
+    <p>I am a Research Software Engineer at University of Cambridge (<a href="https://www.hpc.cam.ac.uk/research-software-engineering">Research Computing Services</a>), where I develop high-performance software for research. I hold a PhD in theoretical chemistry from TU Dresden (supervised by <a href="http://theory.chm.tu-dresden.de/members.shtml?name=theine&amp;set_language=en&amp;lang=en">Prof. Thomas Heine</a>) and was a Marie Skłodowska-Curie ITN fellow (<a href="https://itn-2exciting.chm.tu-dresden.de">2exciting</a>).</p>
+    <p>My experience spans academia and industry: I contributed to commercial quantum chemistry software at <a href="https://www.scm.com/">Software for Chemistry &amp; Materials (SCM)</a> and collaborated within <a href="https://tu-dresden.de/mn/chemie/sfb1415">DFG CRC 1415</a> and <a href="https://www.casus.science/">HZDR-CASUS</a>. My interdisciplinary and international experience includes research in chemistry, materials science, and physics across Germany, the Netherlands, France (<a href="https://lncmi.cnrs.fr/">CNRS‑LNCMI</a>), and China (BUAA - supervised by <a href="https://shi.buaa.edu.cn/nhmiao/en/index.htm">Prof. Naihua Miao</a> and <a href="http://english.iee.cas.cn">Chinese Academy of Sciences-IEE</a>).</p>
+    <h2>Research interests</h2>
+    <p class="muted small">During my doctoral research, I focused on:</p>
+    <ul class="small">
+      <li>Structural and opto-electronic properties of twisted transition metal dichalcogenides (TMDCs) heterostructures</li>
+      <li>Multiscale modelling, from classical force fields to electronic-structure methods</li>
+      <li>Development and implementation of semi-empirical quantum-chemistry methods</li>
+    </ul>
+  </div>
+</section>
+
+<section class="row" id="focus">
+  <div class="label">current work focus</div>
+  <div>
+    <ul class="focus">
+      <li><b>HPC performance engineering:</b> benchmarking, profiling, optimising and parallelising research software on CPUs and GPUs, backed by CI.</li>
+      <li><b>Evaluating and deploying AI coding agents for science:</b> a reproducible benchmark comparing locally served LLMs on scientific correctness and reliability, and layered guardrails for agents on shared HPC clusters, tested with an A/B harness.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="row" id="software">
+  <div class="label">research software</div>
+  <div>
+    <p class="muted small">Selected research software I wrote or contributed to during my PhD.</p>
+
+    <details>
+      <summary>
+        <span class="head">
+          <span class="title">AMS/DFTB: Spin-Orbit Coupling in SCC-DFTB/GFN-xTB</span><span class="tag">Commercial code</span>
+          <span class="line">Role: Contributor — implemented self-consistent spin-orbit coupling in AMS/DFTB end to end, released in AMS2025.</span>
+        </span>
+      </summary>
+      <div class="body">
+        <ul>
+          <li>SCC-DFTB and GFN-xTB; molecules and periodic systems; MPI-parallel; from input to SOC band structures and DOS in the AMS GUI.</li>
+          <li><a href="https://www.scm.com">Software for Chemistry &amp; Materials B.V. (SCM)</a></li>
+          <li>Relevant publication: <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/qute.202501001">W. Li, P. Philipsen, T. Brumme, T. Heine. <i>Advanced Quantum Technologies</i> 9(4), e01001 (2026)</a></li>
+          <li><b>ml_soc_xtb</b>: A physics-constrained ML protocol that learns environment-dependent SOC parameters inside the Hamiltonian from DFT
+            <ul>
+              <li>The goal is SOC parameters for AMS/DFTB. AMS can supply DFT references natively; the open-source GPAW + DFTB+ stack keeps the protocol reproducible outside AMS.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>
+        <span class="head">
+          <span class="title">twistHS</span>
+          <span class="line">Builds commensurate moiré supercells for twisted van der Waals bilayers, with moiré analysis and an MLIP relaxation workflow.</span>
+          <span class="line">Role: Sole developer.</span>
+        </span>
+        <a class="go" href="https://github.com/i-wli/twistHS">Download</a>
+      </summary>
+      <div class="body">
+        <ul>
+          <li>Coincidence-lattice search over Hermite-normal-form sublattices that preserves the moiré wave vectors, up to higher order, rather than strain alone; a polar decomposition separates each layer's rotation from its strain.</li>
+          <li>Vectorized construction builds a 1.3M-atom supercell in 0.15 s (~4,000× faster); optional JAX backend for GPU.</li>
+          <li>MLIP workflow: MACE-MP-0 relaxation and fine-tuning; inexpensive FF labels test whether small cells capture moiré local environments, and pre-registered criteria set a go/no-go decision and DFT budget before any DFT is spent.</li>
+          <li>Relevant publication: <a href="https://www.nature.com/articles/s41699-024-00477-6">W. Li, T. Brumme, T. Heine. <i>npj 2D Mater Appl</i> 8, 43 (2024)</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>
+        <span class="head">
+          <span class="title">Dftb2pi</span><span class="tag">Open source soon</span>
+          <span class="line">A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor</span>
+        </span>
+      </summary>
+      <div class="body">
+        <ul>
+          <li><a href="https://dftbplus.org">DFTB+</a></li>
+          <li>Relevant publication: <a href="https://doi.org/10.26434/chemrxiv-2023-g6v5r-v2">W. Li, G. Jha, T. Brumme, T. Heine. <i>ChemRxiv</i>, doi:10.26434/chemrxiv-2023-g6v5r-v2 (2025)</a></li>
+        </ul>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="row" id="experience">
+  <div class="label">experience</div>
+  <div>
+    <h2>Education</h2>
+    <ul class="small">
+      <li>Ph.D. in Theoretical Chemistry, <i>TU Dresden</i>, Jun. 2021 - Dec. 2025</li>
+      <li>M.Sc. in Computational Materials Science, <i>Beihang University</i>, Sep. 2018 - Jan. 2021</li>
+      <li>B.Sc. in Materials Physics, <i>Beihang University</i>, Sep. 2014 - Jul. 2018</li>
+    </ul>
+    <h2>Experience</h2>
+    <ul class="plain small">
+      <li><b>Research Software Engineer</b> (Apr. 2026 – Present)<span class="where">Research Computing Services, University of Cambridge, <i>Cambridge, United Kingdom</i></span></li>
+      <li><b>Doctoral Researcher</b> (Jun. 2021 – Dec. 2025)<span class="where">TU Dresden, <i>Dresden, Germany</i> · Supervisor: Prof. Thomas Heine</span></li>
+      <li><b>Software Developer</b> (Apr. 2024 – Aug. 2024)<span class="where">Software for Chemistry &amp; Materials B.V. (SCM), <i>Amsterdam, the Netherlands</i></span></li>
+      <li><b>Visiting PhD Student</b> (Oct. 2022 – Dec. 2022)<span class="where">National Laboratory for Intense Magnetic Fields (LNCMI), French National Centre for Scientific Research (CNRS), <i>Toulouse, France</i> · Advisor: Prof. Paulina Plochocka</span></li>
+      <li><b>Research Assistant</b> (Sep. 2017 – Jan. 2021)<span class="where">Beihang University (BUAA), <i>Beijing, China</i> · Supervisor: Assoc. Prof. Naihua Miao</span></li>
+      <li><b>Research Intern</b> (Jul. 2015 – Sep. 2016)<span class="where">Institute of Electrical Engineering (IEE), Chinese Academy of Sciences (CAS), <i>Beijing, China</i> · Advisor: Assoc. Prof. Hongyan Xu</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="row" id="more">
+  <div class="label">more</div>
+  <div>
+    <details>
+      <summary><span class="head"><span class="title">Presentations</span></span></summary>
+      <div class="body">
+        <h2>Conference oral presentations</h2>
+        <ul>
+          <li><a href="https://meetings.aps.org/Meeting/MAR24/Session/N03.11">"Modulation of optical selection rules in twisted transition metal dichalcogenide heterobilayer."</a>, <a href="https://www.aps.org/events/2024/march-meeting">American Physical Society March Meeting</a> (Minneapolis, USA, 2024) · <a href="/files/slides_aps_24.03.pdf">Slides</a></li>
+          <li>"Relaxation effects in twisted transition metal dichalcogenide heterostructures", <a href="https://flatlands2023.com/wp-content/uploads/2022/09/Flatlands-1st-announcement.pdf">Flatlands beyond Graphene</a> (Prague, Czech, 2023) · <a href="/files/slides_flatlands_2309.pdf">Slides</a></li>
+          <li><a href="https://phantomsfoundation.com/GRAPHENECONF/2023/Abstracts/Grapheneconf2023_Li_Wei_203.pdf">"Relaxation effects in twisted transition metal dichalcogenide heterostructures"</a>, <a href="https://www.royce.ac.uk/events/graphene-conference-2023/">Graphene Conference series</a> (Manchester, UK, 2023) · <a href="/files/slides_graphene_2306.pdf">Slides</a></li>
+          <li><a href="https://itn-2exciting.chm.tu-dresden.de/events/POLIMI_Spring_School_2023/">2Exciting Spring school</a> (Milan, Italy, 2022)</li>
+          <li><a href="https://sites.google.com/view/flatlandsbeyondgraphene2022">Flatlands beyond Graphene</a> (Lanzarote, Spain, 2022)</li>
+        </ul>
+        <h2>Conference poster presentations</h2>
+        <ul>
+          <li><a href="https://www.psik2022.net">Psi-k Conference</a> (Lausanne, Switzerland, 2022)</li>
+          <li><a href="https://2dmp.tu-dresden.de/events/midterm/">SPP Mid-term Report Colloquium</a> (Dresden, Germany, 2022)</li>
+          <li><a href="https://www.chem2dmatconf.org/2021/">Chemistry of Two-Dimensional Materials (Chem2DMat)</a> (Virtual, 2021)</li>
+        </ul>
+        <h2>Invited seminars</h2>
+        <ul>
+          <li>"Spin orbit coupling implementation in DFTB/GFN-xTB", SCM (Amsterdam, NL, 2024) · <a href="/files/slides_ams.pdf">Slides</a></li>
+          <li>"Calculating excitons: GW/BSE and TD-DFT formalism", ThC (Goerlitz, DE, 2024) · <a href="/files/slides_retreat_GW.pdf">Slides</a></li>
+          <li>"First-Principles Models for van der Waals Interactions", ThC (Goerlitz, DE, 2023) · <a href="/files/slides_retreat_vdW.pdf">Slides</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="head"><span class="title">Teaching</span></span></summary>
+      <div class="body">
+        <ul>
+          <li>Physical Chemistry Computer Lab: Undergraduate course, TU Dresden, Faculty of Chemistry and Food Chemistry, 2021-2024</li>
+          <li>Quantum Chemistry: Graduate course, TU Dresden, Faculty of Chemistry and Food Chemistry, 2022</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="head"><span class="title">Scholarships and awards</span></span></summary>
+      <div class="body">
+        <ul>
+          <li>Completion &amp; Wrap-up Grant, <i>Graduate Academy of TU Dresden</i> (2025)</li>
+          <li>European Marie Sklodowska-Curie Doctoral Network (2021-2024)</li>
+          <li>Start-up Funding, <i>The Collaborative Research Centre (CRC) 1415</i> (2021)</li>
+          <li>Outstanding Graduate in Beijing (2021)
+            <ul><li>top 4 out of 300 graduates</li></ul></li>
+          <li>Outstanding Master’s Dissertation Award, <i>Beihang University</i> (2020)
+            <ul><li>top 5% in dissertation quality</li></ul></li>
+          <li>Recipient of 9 Scholarships (2014-2020)
+            <ul><li>top 10% annually in academic performance and research achievements</li></ul></li>
+          <li>The Second Prize of Fengru Cup Competition, <i>Beihang University</i> (2016)
+            <ul><li>for extracurricular science and technology works</li></ul></li>
+          <li>Merit Student Award, <i>Beihang University</i> (2015)
+            <ul><li>top 5 out of 151 undergraduate students</li></ul></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="head"><span class="title">Beyond work</span></span></summary>
+      <div class="body">
+        <ul>
+          <li>Minister of Public Relations, Students' Union (organized events and secured sponsorships).</li>
+          <li>Orchestra member (2015-2021), 10 years on Pipa and 3 years on Ruan (traditional Chinese instruments).</li>
+          <li>Rock climbing; 10 years of Chinese folk dance.</li>
+        </ul>
+      </div>
+    </details>
+
+    <p class="small">Publications: <a href="https://scholar.google.com/citations?user=y-hn22IAAAAJ">Google Scholar</a></p>
+  </div>
+</section>
+
+<section class="row" id="contact">
+  <div class="label">contact</div>
+  <div>
+    <p class="small"><a href="mailto:wl502@cam.ac.uk">wl502@cam.ac.uk</a> · <a href="https://github.com/i-wli">GitHub</a> · <a href="https://www.linkedin.com/in/i-wli">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=y-hn22IAAAAJ">Google Scholar</a> · <a href="http://orcid.org/0009-0005-5668-4733">ORCID</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">Wei Li · University of Cambridge</div>
+</footer>
+
+<script>
+const links = [...document.querySelectorAll('.bar nav a')];
+const seen = new Map();
+const io = new IntersectionObserver(entries => {
+  for (const e of entries) seen.set(e.target.id, e.isIntersecting);
+  const current = links.find(a => seen.get(a.hash.slice(1)));
+  for (const a of links) a.toggleAttribute('aria-current', a === current);
+}, { rootMargin: '-72px 0px -60% 0px' });
+for (const a of links) io.observe(document.querySelector(a.hash));
+</script>
+</body>
+</html>
