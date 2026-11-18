@@ -28,32 +28,29 @@
 <main class="wrap" id="top">
 
 <section class="hero">
-  <h1>I trained as a computational physicist. Now I work on how scientific software performs: on CPUs, on GPUs, and in the hands of AI agents.</h1>
+  <h1>Trained in physics and chemistry, I went from studying materials, to implementing the methods that simulate them, to making scientific software perform: on CPUs, on GPUs, and in the hands of AI agents.</h1>
   <img src="/images/hs.webp" width="288" height="288" alt="Portrait of Wei Li">
 </section>
 
 <section class="row" id="about">
   <div class="label">about</div>
   <div>
-    <p>I am a Research Software Engineer at University of Cambridge (<a href="https://www.hpc.cam.ac.uk/research-software-engineering">Research Computing Services</a>), where I develop high-performance software for research. I hold a PhD in theoretical chemistry from TU Dresden (supervised by <a href="http://theory.chm.tu-dresden.de/members.shtml?name=theine&amp;set_language=en&amp;lang=en">Prof. Thomas Heine</a>) and was a Marie Skłodowska-Curie ITN fellow (<a href="https://itn-2exciting.chm.tu-dresden.de">2exciting</a>).</p>
-    <p>My experience spans academia and industry: I contributed to commercial quantum chemistry software at <a href="https://www.scm.com/">Software for Chemistry &amp; Materials (SCM)</a> and collaborated within <a href="https://tu-dresden.de/mn/chemie/sfb1415">DFG CRC 1415</a> and <a href="https://www.casus.science/">HZDR-CASUS</a>. My interdisciplinary and international experience includes research in chemistry, materials science, and physics across Germany, the Netherlands, France (<a href="https://lncmi.cnrs.fr/">CNRS‑LNCMI</a>), and China (BUAA - supervised by <a href="https://shi.buaa.edu.cn/nhmiao/en/index.htm">Prof. Naihua Miao</a> and <a href="http://english.iee.cas.cn">Chinese Academy of Sciences-IEE</a>).</p>
-    <h2>Research interests</h2>
-    <p class="muted small">During my doctoral research, I focused on:</p>
-    <ul class="small">
-      <li>Structural and opto-electronic properties of twisted transition metal dichalcogenides (TMDCs) heterostructures</li>
-      <li>Multiscale modelling, from classical force fields to electronic-structure methods</li>
-      <li>Development and implementation of semi-empirical quantum-chemistry methods</li>
-    </ul>
+    <p>I am a Research Software Engineer in <a href="https://www.hpc.cam.ac.uk/research-software-engineering">Research Computing Services</a> at the University of Cambridge.</p>
+    <p>I hold a PhD in theoretical chemistry from TU Dresden, supervised by <a href="http://theory.chm.tu-dresden.de/members.shtml?name=theine&amp;set_language=en&amp;lang=en">Prof. Thomas Heine</a>, as a Marie Skłodowska-Curie fellow in <a href="https://itn-2exciting.chm.tu-dresden.de">2exciting</a>. During my PhD I also contributed to commercial quantum chemistry software at <a href="https://www.scm.com/">Software for Chemistry &amp; Materials (SCM)</a>, collaborated within <a href="https://tu-dresden.de/mn/chemie/sfb1415">DFG CRC 1415</a> and <a href="https://www.casus.science/">HZDR-CASUS</a>, and spent a research stay at <a href="https://lncmi.cnrs.fr/">CNRS‑LNCMI</a> in Toulouse. Before that, my research began in Beijing, at Beihang University and the <a href="http://english.iee.cas.cn">Institute of Electrical Engineering, Chinese Academy of Sciences</a>.</p>
+    <p>Outside work, I played pipa and ruan in an orchestra, danced Chinese folk dance, and I climb.</p>
   </div>
 </section>
 
 <section class="row" id="focus">
-  <div class="label">current work focus</div>
+  <div class="label">focus</div>
   <div>
+    <h2>Now</h2>
     <ul class="focus">
       <li><b>HPC performance engineering:</b> benchmarking, profiling, optimising and parallelising research software on CPUs and GPUs, backed by CI.</li>
       <li><b>Evaluating and deploying AI coding agents for science:</b> a reproducible benchmark comparing locally served LLMs on scientific correctness and reliability, and layered guardrails for agents on shared HPC clusters, tested with an A/B harness.</li>
     </ul>
+    <h2>My PhD</h2>
+    <p>My PhD asked how twisting two atomically thin semiconductors (transition-metal dichalcogenides) changes the way they interact with light: which optical transitions are allowed, and how excitons respond to magnetic fields [provisional: so twist angle can serve as a knob for designing light-based and quantum devices]. Capturing this needs spin-orbit coupling and lattice relaxation in moiré supercells far too large for routine DFT, so I <b>extended existing electronic-structure codes</b>, <b>put machine learning inside physical models</b>, and <b>made moiré-scale modelling fast</b>.</p>
   </div>
 </section>
 
@@ -62,7 +59,7 @@
   <div>
     <p class="muted small">Selected research software I wrote or contributed to during my PhD.</p>
 
-    <details>
+    <details id="ams-dftb">
       <summary>
         <span class="head">
           <span class="title">AMS/DFTB: Spin-Orbit Coupling in SCC-DFTB/GFN-xTB</span><span class="tag">Commercial code</span>
@@ -74,7 +71,7 @@
           <li>SCC-DFTB and GFN-xTB; molecules and periodic systems; MPI-parallel; from input to SOC band structures and DOS in the AMS GUI.</li>
           <li><a href="https://www.scm.com">Software for Chemistry &amp; Materials B.V. (SCM)</a></li>
           <li>Relevant publication: <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/qute.202501001">W. Li, P. Philipsen, T. Brumme, T. Heine. <i>Advanced Quantum Technologies</i> 9(4), e01001 (2026)</a></li>
-          <li><b>ml_soc_xtb</b>: A physics-constrained ML protocol that learns environment-dependent SOC parameters inside the Hamiltonian from DFT
+          <li><b><a href="https://github.com/i-wli/soctune">soctune</a></b>: A physics-constrained ML protocol that learns environment-dependent SOC parameters inside the Hamiltonian from DFT
             <ul>
               <li>The goal is SOC parameters for AMS/DFTB. AMS can supply DFT references natively; the open-source GPAW + DFTB+ stack keeps the protocol reproducible outside AMS.</li>
             </ul>
@@ -83,26 +80,27 @@
       </div>
     </details>
 
-    <details>
+    <details id="twisths">
       <summary>
         <span class="head">
           <span class="title">twistHS</span>
-          <span class="line">Builds commensurate moiré supercells for twisted van der Waals bilayers, with moiré analysis and an MLIP relaxation workflow.</span>
+          <span class="line">Builds commensurate moiré supercells for twisted van der Waals bilayers, with moiré analysis and an MLIP workflow for relaxation and fine-tuning.</span>
           <span class="line">Role: Sole developer.</span>
         </span>
-        <a class="go" href="https://github.com/i-wli/twistHS">Download</a>
+        <a class="go" href="https://github.com/i-wli/twistHS">GitHub</a>
       </summary>
       <div class="body">
         <ul>
           <li>Coincidence-lattice search over Hermite-normal-form sublattices that preserves the moiré wave vectors, up to higher order, rather than strain alone; a polar decomposition separates each layer's rotation from its strain.</li>
           <li>Vectorized construction builds a 1.3M-atom supercell in 0.15 s (~4,000× faster); optional JAX backend for GPU.</li>
-          <li>MLIP workflow: MACE-MP-0 relaxation and fine-tuning; inexpensive FF labels test whether small cells capture moiré local environments, and pre-registered criteria set a go/no-go decision and DFT budget before any DFT is spent.</li>
+          <li>MLIP workflow: MACE-MP-0 relaxation and fine-tuning; inexpensive FF labels test whether small cells capture moiré local environments, and fixed acceptance criteria set a go/no-go decision and DFT budget before any DFT is spent.</li>
+          <li>Interfaces: CLI, Gradio GUI and Python API.</li>
           <li>Relevant publication: <a href="https://www.nature.com/articles/s41699-024-00477-6">W. Li, T. Brumme, T. Heine. <i>npj 2D Mater Appl</i> 8, 43 (2024)</a></li>
         </ul>
       </div>
     </details>
 
-    <details>
+    <details id="dftb2pi">
       <summary>
         <span class="head">
           <span class="title">Dftb2pi</span><span class="tag">Open source soon</span>
