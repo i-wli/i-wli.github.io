@@ -29,7 +29,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .hero-text { display: grid; grid-template-columns: 10rem minmax(0, 1fr); grid-template-areas: "photo role" "photo name" "photo lede" "links lede"; column-gap: 2.5rem; align-items: start; }
 .id, .id > div { display: contents; }
 .id img { grid-area: photo; width: 10rem; height: 10rem; border-radius: 4px; object-fit: cover; filter: grayscale(.15); }
-.role { grid-area: role; margin: 0 0 .4rem; font-size: .9375rem; font-weight: 500; color: var(--ink-2); }
+.role { grid-area: role; margin: 0 0 .5rem; font-size: 1.125rem; font-weight: 500; color: var(--ink-2); }
 .role span { white-space: nowrap; }
 .hero h1 { grid-area: name; margin: 0; font-size: clamp(2.25rem, 5vw, 3rem); font-weight: 600; line-height: 1.05; letter-spacing: -.025em; }
 .lede { grid-area: lede; max-width: 38em; margin: 1.5rem 0 0; font-size: clamp(1.0625rem, 1.6vw, 1.1875rem); font-weight: 400; line-height: 1.45; }
@@ -39,15 +39,17 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .links a:hover { color: var(--accent); }
 .links svg { width: 1.25rem; height: 1.25rem; fill: currentColor; }
 
-.row { display: grid; grid-template-columns: 10rem minmax(0, 1fr); gap: 2.5rem; padding: 3rem 0; border-top: 1px solid var(--rule); }
+.row { display: grid; grid-template-columns: 10rem minmax(0, 1fr); gap: 2.5rem; padding: 2.5rem 0; border-top: 1px solid var(--rule); }
 .label { align-self: start; position: sticky; top: 4.75rem; margin: 0; font-size: .9375rem; font-weight: 600; line-height: 1.5; }
 .content { max-width: 44rem; }
+#experience .content { max-width: none; }
 .content > :first-child { margin-top: 0; }
 .content > :last-child { margin-bottom: 0; }
 p { margin: 0 0 1rem; }
+p, li { text-wrap: pretty; }
 ul { margin: 0 0 1rem; padding-left: 1.2rem; }
 li { margin-bottom: .4rem; }
-h3 { margin: 2.25rem 0 .75rem; font-size: 1rem; font-weight: 600; }
+h3 { margin: 1.75rem 0 .75rem; font-size: 1rem; font-weight: 600; }
 .muted { color: var(--ink-2); }
 .small { font-size: .9375rem; }
 .focus { list-style: none; padding: 0; }
@@ -64,7 +66,7 @@ h3 { margin: 2.25rem 0 .75rem; font-size: 1rem; font-weight: 600; }
 .proj .metric b { display: block; font: 500 1.25rem/1.2 var(--mono); font-variant-numeric: tabular-nums; color: var(--accent); }
 .proj .metric span { display: block; font-size: .8125rem; color: var(--ink-2); }
 .proj .line { margin: .35rem 0 0; color: var(--ink-2); }
-.proj > ul { margin: .875rem 0 0; }
+.proj > ul { grid-column: 1 / -1; max-width: 40em; margin: .875rem 0 0; }
 .proj li:last-child { margin-bottom: 0; }
 .proj li > ul { margin: .3rem 0 0; }
 
@@ -84,7 +86,12 @@ summary { padding: .8rem 0; cursor: pointer; font-weight: 600; }
 
 footer { border-top: 1px solid var(--rule); padding: 1.5rem 0 3rem; font-size: .8125rem; color: var(--ink-2); }
 
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
 @media (max-width: 760px) {
+  html { scroll-padding-top: 7.5rem; }
   .bar .wrap { flex-direction: column; gap: .4rem; }
   .bar nav { flex-wrap: wrap; gap: .25rem 1.1rem; }
   .hero { padding: 2.5rem 0 2rem; }
@@ -95,7 +102,7 @@ footer { border-top: 1px solid var(--rule); padding: 1.5rem 0 3rem; font-size: .
   .links svg { width: 1.125rem; height: 1.125rem; }
   .role { font-size: .8125rem; }
   .lede { margin: 1.75rem 0 0; }
-  .row { grid-template-columns: 1fr; gap: 1rem; padding: 2.25rem 0; }
+  .row { grid-template-columns: 1fr; gap: 1rem; padding: 1.75rem 0; }
   .label { position: static; font-size: 1.125rem; }
   .proj { grid-template-columns: 1fr; padding: 1.1rem 1.1rem; }
   .proj .metric { grid-column: 1; grid-row: auto; margin-top: .4rem; text-align: left; }
@@ -103,4 +110,9 @@ footer { border-top: 1px solid var(--rule); padding: 1.5rem 0 3rem; font-size: .
   .proj .metric > :first-child { margin-right: .4rem; }
   .timeline li { grid-template-columns: 1fr; margin-bottom: 1.1rem; }
   .timeline .when { grid-row: auto; }
+}
+
+@media (max-width: 360px) {
+  .hero-text { grid-template-columns: 5.5rem minmax(0, 1fr); column-gap: 1rem; }
+  .id img { width: 5.5rem; height: 5.5rem; }
 }
