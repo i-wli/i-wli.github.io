@@ -35,8 +35,8 @@
     <div class="id">
       <img src="/images/hs.webp" width="288" height="288" alt="Portrait of Wei Li">
       <div>
-        <p class="role">Research Software Engineer <span>· PhD</span></p>
         <h1>Wei Li</h1>
+        <p class="role">Research Software Engineer <span>· PhD</span></p>
         <ul class="links">
           <li><a href="mailto:wl502@cam.ac.uk" aria-label="Email: wl502@cam.ac.uk" title="Email: wl502@cam.ac.uk"><svg viewBox="0 8 512 512" aria-hidden="true"><path d="M64 120Q49 121 48 136V158L221 300Q237 312 256 312Q276 312 292 300L464 158V136Q463 121 448 120H64ZM48 220V392V220V392Q49 407 64 408H448Q463 407 464 392V220L322 337Q292 360 256 360Q220 360 190 337L48 220ZM0 136Q1 109 19 91Q37 73 64 72H448Q475 73 493 91Q511 109 512 136V392Q511 419 493 437Q475 455 448 456H64Q37 455 19 437Q1 419 0 392V136Z"/></svg></a></li>
           <li><a href="https://github.com/i-wli" aria-label="GitHub" title="GitHub"><svg viewBox="0 13.5 496 496" aria-hidden="true"><path d="M166 409Q165 413 161 413Q155 413 155 409Q156 406 160 406Q165 406 166 409ZM135 405Q134 408 139 410Q144 411 145 408Q146 404 141 403Q136 402 135 405ZM179 403Q174 404 174 408Q175 411 180 411Q185 409 185 406Q184 403 179 403ZM245 20Q138 22 70 90Q2 158 0 264Q1 349 47 413Q93 477 170 503Q188 504 187 491Q187 487 187 476Q187 453 187 430Q185 430 168 432Q150 433 130 428Q110 422 102 400Q102 398 94 384Q86 371 74 363Q72 362 66 355Q59 349 76 348Q77 347 90 352Q103 356 114 374Q132 401 153 401Q175 401 187 395Q191 371 203 361Q159 359 126 339Q93 320 91 250Q91 230 97 217Q102 204 114 192Q112 186 110 168Q108 150 117 124Q135 121 159 135Q184 148 186 151Q186 151 186 151Q216 142 249 142Q281 142 312 151Q312 150 325 142Q337 134 353 128Q369 121 381 124Q390 150 388 168Q386 186 383 192Q395 204 402 217Q409 230 409 250Q408 298 392 321Q375 343 349 351Q323 359 294 361Q310 372 311 407Q311 444 311 473Q311 486 311 491Q310 504 328 503Q404 477 450 413Q495 349 496 264Q495 194 462 139Q428 84 372 52Q315 21 245 20ZM97 365Q95 367 98 370Q101 373 103 371Q105 369 102 366Q100 363 97 365ZM86 357Q86 359 89 361Q92 362 93 360Q94 358 91 356Q88 355 86 357ZM119 392Q117 395 120 399Q124 402 127 400Q128 397 125 393Q121 390 119 392ZM107 378Q105 380 107 384Q110 387 113 386Q115 384 113 380Q110 376 107 378Z"/></svg></a></li>
@@ -68,7 +68,7 @@
       <li><b>Evaluating and deploying AI coding agents for science:</b> benchmarking locally served LLMs for scientific correctness and reliability, and building A/B-tested guardrails for agents on shared HPC clusters.</li>
     </ul>
     <h3>My PhD</h3>
-    <p>I modelled how the twist angle, an emerging degree of freedom for engineering optoelectronic and quantum devices, controls the electronic and optical properties of transition-metal dichalcogenide heterostructures. Capturing this needs spin-orbit coupling and lattice relaxation in moiré supercells far too large for routine DFT, so I <b>extended existing electronic-structure codes</b>, <b>put machine learning inside physical models</b>, and <b>made moiré-scale modelling fast</b>.</p>
+    <p>I modelled how the twist angle, an emerging degree of freedom for engineering optoelectronic and quantum devices, controls the electronic and optical properties of transition-metal dichalcogenide heterostructures. Capturing this needs spin-orbit coupling and lattice relaxation in moiré supercells far too large for routine DFT, so I <b>extended existing electronic-structure codes</b>, <b>put machine learning inside physical models</b>, and <b>made large-scale modelling fast</b>.</p>
   </div>
 </section>
 
@@ -80,23 +80,24 @@
     <article class="proj" id="ams-dftb">
       <div class="proj-head"><h3>AMS/DFTB: Spin-Orbit Coupling in DFTB/GFN-xTB</h3><span class="tag">Commercial code</span></div>
       <p class="metric"><span>released in</span><b>AMS2025</b></p>
-      <p class="line">Role: Contributor — implemented self-consistent spin-orbit coupling in AMS/DFTB end to end, released in AMS2025.</p>
+      <p class="summary">Implemented self-consistent spin-orbit coupling in AMS/DFTB end to end, released in AMS2025.</p>
+      <p class="who">Role: Contributor</p>
       <ul>
         <li>SCC-DFTB and GFN-xTB; molecules and periodic systems; MPI-parallel; from input to SOC band structures and DOS in the AMS GUI.</li>
         <li>Relevant publication: <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/qute.202501001">W. Li, P. Philipsen, T. Brumme, T. Heine. <i>Advanced Quantum Technologies</i> 9(4), e01001 (2026)</a></li>
-        <li><div class="proj-head"><b class="code">soctune</b><a class="go" href="https://github.com/i-wli/soctune">GitHub</a></div>A physics-constrained ML protocol that learns environment-dependent SOC parameters inside the Hamiltonian from DFT
-          <ul>
-            <li>The goal is SOC parameters for AMS/DFTB. AMS can supply DFT references natively; the open-source GPAW + DFTB+ stack keeps the protocol reproducible outside AMS.</li>
-          </ul>
-        </li>
       </ul>
+      <div class="sub">
+        <div class="proj-head"><h4 class="code">soctune</h4><a class="go" href="https://github.com/i-wli/soctune">GitHub</a></div>
+        <p class="summary">A physics-constrained ML protocol that learns environment-dependent SOC parameters inside the Hamiltonian from DFT.</p>
+        <p class="note">The goal is SOC parameters for AMS/DFTB. AMS can supply DFT references natively; the open-source GPAW + DFTB+ stack keeps the protocol reproducible outside AMS.</p>
+      </div>
     </article>
 
     <article class="proj" id="twisths">
       <div class="proj-head"><h3 class="code">twistHS</h3><a class="go" href="https://github.com/i-wli/twistHS">GitHub</a></div>
       <p class="metric"><b>0.15 s</b><span>1.3M-atom supercell</span></p>
-      <p class="line">Builds commensurate moiré supercells for twisted van der Waals bilayers, with moiré analysis and an MLIP workflow for relaxation and fine-tuning.</p>
-      <p class="line">Role: Sole developer.</p>
+      <p class="summary">Builds commensurate moiré supercells for twisted van der Waals bilayers, with moiré analysis and an MLIP workflow for relaxation and fine-tuning.</p>
+      <p class="who">Role: Sole developer</p>
       <ul>
         <li>Coincidence-lattice search over Hermite-normal-form sublattices that preserves the moiré wave vectors, up to higher order, rather than strain alone; a polar decomposition separates each layer's rotation from its strain.</li>
         <li>Vectorized construction builds a 1.3M-atom supercell in 0.15 s (~4,000× faster); optional JAX backend for GPU.</li>
@@ -109,7 +110,8 @@
     <article class="proj" id="dftb2pi">
       <div class="proj-head"><h3 class="code">Dftb2pi</h3><span class="tag">Open source soon</span></div>
       <p class="metric"><b>DFTB+</b><span>patch</span></p>
-      <p class="line">A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor</p>
+      <p class="summary">A DFTB+ patch to compute generalized momentum operator for optical selection rules and exciton g-factor.</p>
+      <p class="who">Role: Contributor</p>
       <ul>
         <li>Relevant publication: <a href="https://doi.org/10.26434/chemrxiv-2023-g6v5r-v2">W. Li, G. Jha, T. Brumme, T. Heine. <i>ChemRxiv</i>, doi:10.26434/chemrxiv-2023-g6v5r-v2 (2025)</a></li>
       </ul>
